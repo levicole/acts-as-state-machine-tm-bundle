@@ -1,0 +1,21 @@
+Pretty simple acts as state machine bundle for text mate.
+
+Installation:
+
+cd ~/Library/Application\ Support/TextMate/Bundles/
+git clone git://github.com/levicole/acts-as-state-machine-tm-bundle.git ActsAsStateMachine.tmbundle
+
+In text mate:
+From your drop down menu, select Bundles -> Bundle Editor -> Reload Bundles
+
+And thats it.  The snippets are all pretty self explanitory.  
+
+aasm[tab] generates
+
+acts_as_state_machin :initial => :new, :column => "status"
+
+event[tab] generates an event block
+
+transition generates:
+
+transitions :from => :state_1, :to => :state_2
