@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>acts_as_state_machine :initial =&gt; :${1:state}${2:, :column =&gt; "${3:status}"}</string>
+	<key>name</key>
+	<string>acts_as_state_machine</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>aasm</string>
+	<key>uuid</key>
+	<string>58BC531A-4880-4E6C-A59A-3BC1FDCE715B</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>transitions :from =&gt; :${1:state_1}, :to =&gt; :${2:state_2}
+${3:transitions}$0</string>
+	<key>name</key>
+	<string>transitions</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>transitions</string>
+	<key>uuid</key>
+	<string>6818CED5-EF4A-4875-863B-0D328AD2504F</string>
+</dict>
+</plist>
