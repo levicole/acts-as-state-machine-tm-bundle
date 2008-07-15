@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>transitions :from =&gt; :${1:state_1}, :to =&gt; :${2:state_2}
-${3:transitions}$0</string>
+	<string>transitions :from =&gt; :${1:state_1}, :to =&gt; :${2:state_2}</string>
 	<key>name</key>
 	<string>transitions</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>transitions</string>
+	<string>trans</string>
 	<key>uuid</key>
 	<string>6818CED5-EF4A-4875-863B-0D328AD2504F</string>
 </dict>

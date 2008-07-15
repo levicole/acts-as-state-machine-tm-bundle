@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>event :${1:event} do
-	transitions$0
+	trans$0
 end</string>
 	<key>name</key>
 	<string>event</string>
