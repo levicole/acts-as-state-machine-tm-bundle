@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Show AASM events in symbol list</string>
+	<key>scope</key>
+	<string>keyword.other.context.ruby.rails.aasm.event</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+	</dict>
+	<key>uuid</key>
+	<string>D2F0DB6C-F980-4D46-BF88-A1D14C4F15BB</string>
+</dict>
+</plist>
