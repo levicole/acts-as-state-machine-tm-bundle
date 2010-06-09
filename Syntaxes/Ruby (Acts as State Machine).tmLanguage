@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>rb</string>
+		<string>rxml</string>
+		<string>builder</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~R</string>
+	<key>name</key>
+	<string>Ruby (Acts as State Machine)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>(^\s*)(?=class\s+.+ActiveRecord::Base)</string>
+			<key>comment</key>
+			<string>Uses lookahead to match classes that (may) inherit from ActiveRecord::Base; includes 'source.ruby' to avoid infinite recursion</string>
+			<key>end</key>
+			<string>^\1(?=end)\b</string>
+			<key>name</key>
+			<string>meta.rails.model</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.context.ruby.rails.aasm.event</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(aasm_event\W*:\w+)</string>
+			<key>name</key>
+			<string>source.ruby.rails.aasm.event</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.ruby.rails</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.ruby.rails.aasm</string>
+	<key>uuid</key>
+	<string>DF9B679A-DF9C-4122-B330-670EEF264F18</string>
+</dict>
+</plist>
